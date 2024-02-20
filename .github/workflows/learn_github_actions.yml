@@ -12,3 +12,4 @@ jobs:
         with:
           sparse-checkout: .
       - run: ls -l
+      - run: git tag -l
